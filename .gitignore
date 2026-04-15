@@ -1,0 +1,58 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+.env.*
+pipeline.log
+temp_face_tracked.mp4
+
+weights/
+media/
+outputs/
+proof_keyframes/
+_downloads/
+cloudflared.exe
+data/ava_active_speaker/ava_activespeaker_train_flat.csv
+data/ava_active_speaker/ava_activespeaker_val_flat.csv
+data/*.db
+data/*.db-*
+
+# Frontend monorepo artifacts
+frontend/.dart_tool/
+frontend/build/
+frontend/.flutter-plugins-dependencies
+frontend/macos/Flutter/ephemeral/
+frontend/windows/flutter/ephemeral/
+frontend/linux/flutter/ephemeral/
+
+# Generated augmentation images & student photos (binary assets, too large for git)
+student-details/*/augmentations_generated/
+student-details/*/augmentations_local/
+student-details/*/augmentations_quality/
+student-details/**/*.jpg
+student-details/**/*.jpeg
+student-details/**/*.png
+
+# Large model binaries
+*.onnx
+*.pt
+*.pth
+*.model
+*.bin
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+
+# SQLite
+local_db.sqlite3
+*.sqlite3
+
+# Large runtime data
+detectors/face_detector/identity_db.json
+temp_preview/
