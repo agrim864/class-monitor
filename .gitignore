@@ -25,13 +25,12 @@ frontend/macos/Flutter/ephemeral/
 frontend/windows/flutter/ephemeral/
 frontend/linux/flutter/ephemeral/
 
-# Generated augmentation images & student photos (binary assets, too large for git)
+# Generated augmentation images (large, not needed in repo)
 student-details/*/augmentations_generated/
 student-details/*/augmentations_local/
 student-details/*/augmentations_quality/
-student-details/**/*.jpg
-student-details/**/*.jpeg
-student-details/**/*.png
+student-details/*/augmentations_combines/
+student-details/augmentation_manifest.csv
 
 # Large model binaries
 *.onnx
